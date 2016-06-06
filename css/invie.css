@@ -29,10 +29,26 @@ table, td, th
 	border-collapse: collapse;
 }
 
+input, textarea
+{
+	outline: 0;
+}
+
+input:focus, textarea:focus
+{
+	background: lightgray;
+}
+
 .contenedor
 {
 	width: 800px;
 	margin: auto;
+}
+
+.background
+{
+	background-image: url('../images/background.png');
+	background-size: cover;
 }
 
 .button
@@ -152,8 +168,6 @@ table, td, th
 
 .portada
 {
-	background-image: url('../images/background.png');
-	background-size: cover;
 	color: #fff;
 	padding: 20px;
 	height: 500px;
